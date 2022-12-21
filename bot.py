@@ -1,4 +1,3 @@
-# (c) @AbirHasan2005
 
 # This is Telegram Video Watermark Adder Bot's Source Code.
 # I Hardly Made This. So Don't Forget to Give Me Credits.
@@ -52,7 +51,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/aarthur_dayne"), InlineKeyboardButton("Support Group", url="https://t.me/movies_halt_owner_bot")], [InlineKeyboardButton("Bots Channel", url="https://t.me/movies_halt")], [InlineKeyboardButton("Source Code", url="https://t.me/movies_halt_owner_bot")]]),
 		disable_web_page_preview=True
 	)
 
