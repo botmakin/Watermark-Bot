@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+
 
 import time
 from humanfriendly import format_timespan
@@ -19,9 +19,9 @@ async def send_video_handler(bot, cmd, output_vid, video_thumbnail, duration, wi
         height=height,
         reply_to_message_id=cmd.message_id,
         supports_streaming=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
-                                           [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                                           [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/aarthur_dayne")],
+                                           [InlineKeyboardButton("Bots Channel", url="https://t.me/movies_halt")],
+                                           [InlineKeyboardButton("Support Group", url="https://t.me/movies_halt_owner_bot")]]),
         progress=progress_for_pyrogram,
         progress_args=(
             "Uploading, Wait Sir ...",
